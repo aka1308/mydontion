@@ -1,0 +1,27 @@
+.submitbutton
+{
+	 background-color: crimson;
+     color: #fff;
+     border: 1px solid;
+     padding: 10px;
+     width: 100px;
+     outline: none;
+     margin: solid;
+	 font-size:20px;
+	 font-style:oblique;
+}
+.submitbutton:hover
+{
+	background-color:white;
+	color:black;
+}
+body
+{
+	text-align:center;
+	background-image:url("g.jpg");
+	background-position:centre;
+	background-size:cover;
+	font-style:italic;
+	font-size:30px;
+    position:center;
+}

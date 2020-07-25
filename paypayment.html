@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Payment</title>
+<link rel = "stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+
+<h1 >PAYMENT GATEWAY</h1>
+<form class = 'payform' action="myemail.php" >
+    <label> NAME </label>
+	<input type = "text" name = "name"/>
+     <br>
+	 <label> E-MAIL </label>
+     <input type = "text" name = "email"/>
+     <br>
+	 <label> DONATION AMOUNT </label>
+     <input type = "text" name = "donation_amount"/>
+     <br>
+	 <label> PAYMENT TYPE</label>
+     <select name = "dropdown">
+     <option value = "DEBIT CARD" selected>DEBIT CARD</option>
+     <option value = "CREDIT CARD" selected>CREDIT CARD</option>
+     <option value = "PAYTM" selected>PAYTM</option>
+     <option value = "PAYPAL" selected>PAYPAL</option>
+     <option value = "BHIM UPI" selected>BHIM UPI</option>
+     </select>
+     <br>
+     <button class="submitbutton">MAKE PAYMENT</button>
+</form>
+
+</body>
+</html>

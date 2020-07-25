@@ -1,0 +1,26 @@
+.payform
+{
+	width: 500px;
+	font-size:30px;
+	margin:20px;
+	padding:20px;
+	border: solid 2px blue;
+	border-radius:20px;
+}
+.payform input,label,textarea,button
+{
+	width:90%;
+	padding:10px;
+	margin:10px;
+}
+.submitbutton
+{
+	background: red;
+	border-radius: black;
+}
+body
+{
+	background-image:url("t.jpg");
+	background-position:centre;
+	background-size:cover;
+}
